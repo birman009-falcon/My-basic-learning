@@ -1,0 +1,28 @@
+a=10
+while a>5:
+    print("hello boy")
+    a-=1
+    
+input=50
+num=10
+while input >=0:
+    print("5*",num,"=",input)
+    input-=5
+    num-=1
+
+input=5
+num=1
+while input<=50:
+    print("5*",num,"=",input)
+    num+=1
+    input+=5
+
+
+
+
+i=[5,10,15,20,25,30,35,40,45,50]
+print(len(i))
+hello=0
+while hello<len(i):
+        print(i[hello])
+        hello+=1

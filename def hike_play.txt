@@ -1,0 +1,10 @@
+using Def function
+def hike_play(name):
+              print("Hello:",name)
+
+list=["Muiz","Ali","tayyab","shahaid"]
+variable=0
+while variable<len(list):
+        hike_play(list[variable])
+        variable+=1
+        

@@ -1,0 +1,20 @@
+print("Welcome to python simple calculator")
+A=input("what operation you want to achieve?")
+c=int(input("enter your first number"))
+d=int(input("enter your second number"))
+print(A)
+if A=="addition":
+    print(c,"+",d,end="")
+    print("=",c+d)
+
+if A=="multiplication":
+    print(c,"*",d,end="")
+    print("=",c*d)
+
+if A=="subtraction":
+    print(c,"-",d,end="")
+    print("=",c-d)
+
+if A=="division":
+    print(c,"/",d,end="")
+    print("=",c/d)
